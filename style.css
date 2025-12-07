@@ -16,3 +16,54 @@ body{
     background: linear-gradient(to right, white, rgb(17, 230, 245));
     margin-bottom: 200px;
 }
+
+/*--header--*/
+
+.header {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    -align-items: center;
+    background-color: inherit;
+    height: 80px;
+    width: 100%;
+    color: white;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+
+}
+.header h1 {
+    color: black;
+    font-weight: bolder;
+    padding: 30px;
+}
+.header ul, li {
+    display: flex;
+    gap: 10px;
+    
+}
+.header li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 100%;
+    background-color: ;
+    color: black;
+    font-size: large;
+    transition: 0.5s;
+}
+/* .header li a {
+    width: 70px;
+    height: 100%;
+    padding: ;
+    background-color: red;
+    border-radius: 10px;
+    font-size: large;
+} */
+ .header li a:hover {
+    background-color: rgb(59, 207, 248);
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    opacity: 0.8;
+    text-decoration: underline red 2px;
+ }
