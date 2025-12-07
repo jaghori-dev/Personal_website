@@ -10,7 +10,7 @@
     font-size: 1.025rem;
 }
 body{
-    max-width: 1400px;
+    
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right, white, rgb(17, 230, 245));
@@ -47,7 +47,6 @@ body{
     align-items: center;
     width: 80px;
     height: 100%;
-    background-color: ;
     color: black;
     font-size: large;
     transition: 0.5s;
@@ -66,4 +65,19 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     opacity: 0.8;
     text-decoration: underline red 2px;
+ }
+ .main {
+    display: flex;
+    
+    gap: 10px;
+    padding: 30px;
+ }
+ .aboutme {
+    flex: 7 ;
+ }
+ .profile-pic {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 100%;
  }
