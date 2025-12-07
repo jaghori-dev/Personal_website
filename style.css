@@ -66,18 +66,41 @@ body{
     opacity: 0.8;
     text-decoration: underline red 2px;
  }
- .main {
-    display: flex;
-    
-    gap: 10px;
+ .main{
     padding: 30px;
  }
  .aboutme {
+    display: flex; 
+    gap: 10px;  
+ }
+ .text {
     flex: 7 ;
  }
  .profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     background-color: red;
     border-radius: 100%;
+    
+ }
+ .skills {
+    padding-top: 20px;
+
+ }
+ .cells ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+ }
+ .cells li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: linear-gradient(to right, white, rgb(17, 230, 245));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    width: 90px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer; 
  }
